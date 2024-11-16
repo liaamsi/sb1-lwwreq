@@ -1,0 +1,16 @@
+{
+  "name": "vfs-appointment-bot",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.5.0",
+    "dotenv": "^16.3.1",
+    "node-notifier": "^10.0.1",
+    "winston": "^3.11.0"
+  }
+}
